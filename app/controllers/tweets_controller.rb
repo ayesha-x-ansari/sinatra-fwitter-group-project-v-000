@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 require 'pry'
+=======
+>>>>>>> a83e905bbac9f1d5d935ce6553517e36c9198d15
 class TweetsController < ApplicationController
   get '/tweets' do
     if logged_in?
